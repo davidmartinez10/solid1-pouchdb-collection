@@ -25,6 +25,14 @@
     "solid-js",
     "hook"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmartinez10/solid1-pouchdb-collection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmartinez10/solid1-pouchdb-collection/issues"
+  },
+  "homepage": "https://github.com/davidmartinez10/solid1-pouchdb-collection#readme",
   "packageManager": "pnpm@12.23.0",
   "devDependencies": {
     "@types/pouchdb": "^6.4.2",
