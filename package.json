@@ -1,0 +1,37 @@
+{
+  "name": "solid1-pouchdb-collection",
+  "version": "1.0.0",
+  "description": "Solid-js v1 store for PouchDB collections",
+  "main": "lib/index.js",
+  "type": "module",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "David Martínez",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.23.0",
+      "onFail": "download"
+    }
+  },
+  "keywords": [
+    "pouchdb",
+    "solid-js",
+    "hook"
+  ],
+  "packageManager": "pnpm@12.23.0",
+  "devDependencies": {
+    "@types/pouchdb": "^6.4.2",
+    "solid-js": "1.9.20",
+    "typescript": "^7.0.2"
+  },
+  "peerDependencies": {
+    "solid-js": "<=1.9.20"
+  }
+}
